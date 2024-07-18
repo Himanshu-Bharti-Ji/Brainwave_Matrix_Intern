@@ -1,3 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 body {
-  background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
+
+.left_section {
+  padding: 0 0 0 16px;
+}
+
+/* .right_section {
+  padding: 0 15px 0 0;
+} */
+
+.main_btn {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  background: none;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: none !important;
+  text-transform: none;
+  border-radius: 24px;
+  font-size: 14px;
+  padding: 6px 16px;
+  background-color: #008847;
+  height: 32px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: none;
+  opacity: 1;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main_btn:hover {
+  background-color: #115735;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.material-symbols-outlined {
+  font-size: 16px !important;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  border-bottom: 1px solid;
+  color: #dcdfe4;
+}
+
+.prof_img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  object-fit: cover;
+  color: transparent;
+  text-indent: 10000px;
+}
+
+.img_btn {
+  outline: 0;
+  border: 0;
+  margin: 0;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.img_container {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  user-select: none;
+  width: 30px;
+  height: 30px;
+}
+
+.img_span {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-left: 12px;
+}
+
+.right_upper_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px 0 0;
+}
+
+.btn_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.right_anchor {
+  text-decoration: none;
+}
+
+.left_anchor {
+  margin: 0 18px 0 6px;
+}
+
+.svg_container {
+  margin-top: 4px;
 }
