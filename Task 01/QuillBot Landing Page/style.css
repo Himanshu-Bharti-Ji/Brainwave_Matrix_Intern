@@ -5,6 +5,8 @@ body {
   padding: 0;
 }
 
+/* Navbar Start Here */
+
 .left_section {
   padding: 0 0 0 16px;
 }
@@ -123,3 +125,142 @@ body {
 .svg_container {
   margin-top: 4px;
 }
+
+/* Navbar Start End */
+
+/* Body Start Here */
+
+/* Hero Section Start */
+
+.hero_heading_text {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  font-family: "Open Sans", sans-serif;
+  color: #172b4d;
+  text-align: center;
+  color: #172b4d;
+}
+
+.hero_heading {
+  padding-top: 48px;
+  max-width: 1128px;
+  margin: auto;
+}
+
+.hero_span {
+  color: #008847;
+}
+
+.hero_all_cards {
+  max-width: 1128px;
+  margin: auto;
+}
+
+.cards_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 40px;
+  margin-bottom: 72px;
+}
+
+.upper_card_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lower_card_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.long_card_container {
+  border: 1px solid green;
+  width: 100%;
+  height: 124px;
+}
+
+.hero_card {
+  min-width: 360px;
+}
+
+.hero_card_wrapper {
+  border: 1px solid;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 100%;
+  border-color: #dcdfe4;
+  border-radius: 16px;
+
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 24px;
+}
+
+.card_container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero_card > a {
+  text-decoration: none;
+  color: #2971fe;
+}
+
+.hero_card_heading > h5 {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 28px;
+  color: #172b4d;
+  color: #172b4d;
+}
+
+.card_text_container > h6 {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  color: #172b4d;
+  color: #626f86;
+}
+
+.hero_card_heading {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.card_text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Hero Section End */
+
+/* Body Start End */
