@@ -5,6 +5,28 @@ body {
   padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+  cursor: pointer;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #172b4d29 !important;
+  border-radius: 100px;
+}
+
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-track-piece {
+  display: none;
+}
+
 /* Navbar Start Here */
 
 .left_section {
@@ -1676,7 +1698,7 @@ header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
@@ -1694,6 +1716,23 @@ header {
   -moz-transform: translateY(0px);
   -ms-transform: translateY(0px);
   transform: translateY(0px);
+}
+
+.footer_btn.show {
+  display: flex; /* Show the button when 'show' class is added */
+}
+
+#backToTopBtn {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: fixed; /* Ensure the button stays in place */
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  /* Add other styling as needed */
+}
+
+#backToTopBtn.show {
+  opacity: 1;
 }
 
 .footer_upper {
