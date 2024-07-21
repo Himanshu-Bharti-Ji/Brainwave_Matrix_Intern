@@ -2028,7 +2028,8 @@ header {
   padding-top: 12px;
 }
 
-.footer_lower_left_foot p {
+.footer_lower_left_foot p,
+.my_info p {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -2103,6 +2104,17 @@ header {
 
 .footer_lower_space {
   padding-top: 8px;
+}
+
+.my_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.my_info a {
+  color: #008847;
 }
 
 /* Footer Section End Here */
